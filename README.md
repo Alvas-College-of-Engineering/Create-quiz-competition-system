@@ -1,14 +1,30 @@
 # Quiz Competition System
 
-Simple Java Quiz Competition System with HTML, CSS, and JavaScript frontend.
+A Simple Java Quiz Competition System with Frontend using HTML, CSS, and JavaScript.
+
+## Features
+
+- Multiple Choice Questions
+- Score Calculation
+- Final Result Display
+- Participant Details
+- Java OOP Concepts
+- Simple Frontend UI
+
+## Technologies Used
+
+- Java
+- HTML
+- CSS
+- JavaScript
 
 ## Run Frontend
-Open index.html
+
+Open `index.html`
 
 ## Run Java Program
 
 Compile:
-javac QuizCompetition.java
 
-Run:
-java QuizCompetition
+```bash
+javac QuizCompetition.java
