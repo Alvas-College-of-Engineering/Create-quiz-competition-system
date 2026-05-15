@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Competition System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Quiz Competition System</h1>
+
+    <div id="start-screen">
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quiz-box" class="hidden">
+
+        <h2 id="question"></h2>
+
+        <div class="options">
+            <button class="option" onclick="checkAnswer(this)"></button>
+            <button class="option" onclick="checkAnswer(this)"></button>
+            <button class="option" onclick="checkAnswer(this)"></button>
+            <button class="option" onclick="checkAnswer(this)"></button>
+        </div>
+
+        <button id="next-btn" onclick="nextQuestion()">Next</button>
+
+    </div>
+
+    <div id="result-box" class="hidden">
+        <h2>Quiz Completed</h2>
+        <h3 id="result"></h3>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
